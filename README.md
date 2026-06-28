@@ -1,8 +1,5 @@
 
 # 🌤️ MausamBot — AI Weather Agent
-=======
-
->>>>>>> cee98c4966eead02c9e41bb4e78d1af4f0cc1169
 
 An AI-powered weather agent built with Python and Groq LLM that understands natural language in Roman Urdu and English, and provides real-time weather data.
 
