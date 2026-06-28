@@ -1,0 +1,48 @@
+ source /Users/mac/weather-agent/venv/bin/activate
+
+# 🌤️ Weather Agent
+
+An AI-powered weather agent built with Python and Groq LLM that provides 
+real-time weather information using natural language.
+
+## ✨ Features
+
+- 🤖 Natural language understanding (Roman Urdu + English)
+- 🌍 Real-time weather data for any city worldwide
+- 🔧 Tool calling / Function calling architecture
+- 💬 Multi-turn conversation support
+
+## 🛠️ Tech Stack
+
+- **Python 3.9+**
+- **Groq API** (LLama 3.3 70B) — AI brain
+- **OpenWeatherMap API** — Real-time weather data
+- **python-dotenv** — Environment variables
+
+## 🚀 Setup
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/asad3212/weather-agent.git
+cd weather-agent
+```
+
+### 2. Virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+```
+
+### 3. Install packages
+```bash
+pip install groq requests python-dotenv
+```
+
+### 4. API Keys
+Get your free API keys:
+- **Groq:** https://console.groq.com
+- **OpenWeatherMap:** https://openweathermap.org/api
+
+Create `.env` file:
+
