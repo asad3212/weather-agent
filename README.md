@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌤️ MausamBot — AI Weather Agent
 =======
 
