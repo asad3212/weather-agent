@@ -1,16 +1,15 @@
- source /Users/mac/weather-agent/venv/bin/activate
+# 🌤️ MausamBot — AI Weather Agent
 
-# 🌤️ Weather Agent
-
-An AI-powered weather agent built with Python and Groq LLM that provides 
-real-time weather information using natural language.
+An AI-powered weather agent built with Python and Groq LLM that understands natural language in Roman Urdu and English, and provides real-time weather data.
 
 ## ✨ Features
 
 - 🤖 Natural language understanding (Roman Urdu + English)
-- 🌍 Real-time weather data for any city worldwide
+- 🌍 Real-time weather for any city worldwide
+- 📅 3-day weather forecast
+- 🏙️ Compare weather of two cities
+- 💬 Friendly conversation with practical advice
 - 🔧 Tool calling / Function calling architecture
-- 💬 Multi-turn conversation support
 
 ## 🛠️ Tech Stack
 
@@ -30,8 +29,7 @@ cd weather-agent
 ### 2. Virtual environment
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
+source venv/bin/activate
 ```
 
 ### 3. Install packages
@@ -40,9 +38,26 @@ pip install groq requests python-dotenv
 ```
 
 ### 4. API Keys
-Get your free API keys:
 - **Groq:** https://console.groq.com
 - **OpenWeatherMap:** https://openweathermap.org/api
 
 Create `.env` file:
+GROQ_API_KEY=your_groq_key
 
+OPENWEATHER_API_KEY=your_openweather_key
+
+### 5. Run
+```bash
+python3 agent.py
+```
+
+## 💬 Example Usage
+Tum: Lahore ka mausam batao
+
+Tum: Lahore aur Karachi compare karo
+
+Tum: Islamabad ka 3 din ka forecast batao
+
+## 👨‍💻 Author
+
+**Asad** — BS Software Engineering, University of Gujrat
