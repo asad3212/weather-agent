@@ -1,4 +1,4 @@
- source /Users/mac/weather-agent/venv/bin/activate
+
 
 # 🌤️ Weather Agent
 
